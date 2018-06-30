@@ -1,0 +1,419 @@
+@font-face {
+    font-family: 'stockfont';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/EkkamaiStandard-Light.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'stockfont2';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/SOV_monomon-hinted.ttf') format('truetype')
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;     
+    top: 0px; 
+    margin: 0px;
+    background: rgb(204, 221, 236);
+}
+.containerTop{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;     
+    top: 0px; 
+    font-family: 'stockfont2';
+    background: rgb(15, 69, 88);
+}
+.containerButtom{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;     
+    justify-content: flex-end;
+    top: 0px; 
+    font-family: 'stockfont2';
+}
+.inside {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background: white;
+    border-radius: 3%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.textInBox{
+    font-family: 'stockfont2';
+}
+.Img{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.ImgText{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.btnLogin{
+    justify-content: center; 
+    align-items: center;  
+    border-width: thick;
+    font-weight: bold;
+    font-family: 'stockfont2';
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: rgb(4, 56, 68);
+    border: none;
+    box-shadow: 0 9px #999;
+}
+.btnLogin:hover {background-color: rgb(3, 42, 51)}
+
+.btnLogin:active {
+  background-color: rgb(3, 42, 51);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.key{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+}
+body {
+    display: block;
+    margin: 0px;
+}
+.containerHeader {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(15, 69, 88);
+    top: 0px; 
+    border-bottom: solid;
+    border-bottom-color: burlywood;
+}
+.bodyHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Logo {
+    border: solid;
+    align-items: center;
+    justify-content: center;
+}
+.p1 {
+    font-family: 'stockfont2';  
+} 
+.p2 {
+    font-family: 'stockfont2';  
+}
+.containerPD {
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    top: 0px; 
+    background: rgb(204, 221, 236);
+}
+.upload {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0px; 
+    background: rgb(204, 221, 236);
+}
+.bottonImg{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.btnMenu {
+    justify-content: center; 
+    align-items: center;  
+    border-width: thick;
+    font-weight: bold;
+    font-family: 'stockfont2';
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: rgb(180, 52, 52);
+    border: none;
+    box-shadow: 0 9px #999;
+}
+.btnMenu:hover {background-color: rgb(167, 14, 14)}
+
+.btnMenu:active {
+  background-color: rgb(167, 14, 14);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.btnMenu2 {
+    justify-content: center; 
+    align-items: center;  
+    border-width: thick;
+    font-weight: bold;
+    font-family: 'stockfont2';
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: rgb(58, 118, 179);
+    border: none;
+    box-shadow: 0 9px #999;
+}
+.btnMenu2:hover {background-color: rgb(19, 77, 134)}
+
+.btnMenu2:active {
+  background-color: rgb(32, 95, 158);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.btnMenu3 {
+    justify-content: center; 
+    align-items: center;  
+    border-width: thick;
+    font-weight: bold;
+    font-family: 'stockfont2';
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: rgb(41, 116, 41);
+    border: none;
+    box-shadow: 0 9px #999;
+}
+.btnMenu3:hover {background-color: rgb(22, 100, 22)}
+
+.btnMenu3:active {
+  background-color: rgb(22, 100, 22);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.topPage {
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    top: 0px; 
+}
+.topPage1 {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    top: 0px; 
+}
+.topPage2 {
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-end;
+    top: 0px; 
+}
+/* .btnDiv {
+    display: flex; 
+    flex-direction: row;
+    align-content: center;
+} */
+.nameEmail{
+    font-family: 'stockfont2';
+}
+.primary{
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    border: solid;
+    border-width: thick;
+    border-color:  rgb(49, 49, 49);
+    background-color: rgb(9, 82, 99);
+    font-weight: bold;
+    color:  white;
+    font-family: 'stockfont2';
+}
+.bodyLP {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    top: 0px; 
+    border: dashed;
+    border-width: thick;
+    border-color:rgb(15, 69, 88);
+}
+.ImgLP{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    top: 0px; 
+}
+.btnCancle{
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    top: 0px;
+}
+.CenLP{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    top: 0px; 
+}
+.CenLP1{
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    top: 0px; 
+}
+.innerImgLP{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: solid;
+    border-width: thick;
+    border-color:rgb(112, 114, 114);
+    border-radius: 15%;
+}
+.text{
+    font-family: 'stockfont2';
+    color: rgb(15, 69, 88);
+}
+.bodyLP1 {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    top: 0px; 
+    border: dashed;
+    border-width: thick;
+    border-color:rgb(15, 69, 88);
+}
+.bodyLP2 {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    top: 0px; 
+}
+.btnSet{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btnAddPro {
+  justify-content: center; 
+  align-items: center;  
+  border-width: thick;
+  border-color:  rgb(49, 49, 49);
+  font-weight: bold;
+  color:  white;
+  font-family: 'stockfont';
+  display: inline-block;
+  /* padding: 15px 25px; */
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  background-color: rgb(4, 56, 68);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.btnAddPro:hover {background-color: rgb(3, 42, 51)}
+
+.btnAddPro:active {
+  background-color: rgb(3, 42, 51);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.btnAddPro1 {
+    justify-content: center; 
+    align-items: center;  
+    border-width: thick;
+    font-weight: bold;
+    color:  white;
+    font-family: 'stockfont';
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    background-color: forestgreen;
+    border: none;
+    box-shadow: 0 9px #999;
+}
+.btnAddPro1:hover {background-color: darkgreen}
+
+.btnAddPro1:active {
+  background-color: darkgreen;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.btnAddPro2 {
+    justify-content: center; 
+    align-items: center;  
+    border-width: thick;
+    font-weight: bold;
+    color:  white;
+    font-family: 'stockfont';
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    background-color: firebrick;
+    border: none;
+    box-shadow: 0 9px #999;
+}
+.btnAddPro2:hover {background-color: darkred}
+
+.btnAddPro2:active {
+  background-color: darkred;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.Logout {
+    justify-content: center; 
+    align-items: center;  
+    border-width: thick;
+    font-weight: bold;
+    color:  white;
+    font-family: 'stockfont';
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    background-color: firebrick;
+    border: none;
+    box-shadow: 0 9px #999;
+}
+.Logout:hover {background-color: darkred}
+
+.Logout:active {
+  background-color: darkred;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.textInBox2{
+    font-family: 'stockfont';
+}
