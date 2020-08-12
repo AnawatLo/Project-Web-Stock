@@ -13,6 +13,9 @@ this project use React JS and Firebase
 # framework
 - React JS
 
+# database
+- firebase
+
 # library
 - @material-ui/core
 - prop-types
@@ -20,3 +23,4 @@ this project use React JS and Firebase
 - react-google-login
 - react-router-dom
 - xlsx
+- firebase
