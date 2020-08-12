@@ -10,7 +10,7 @@ academic year 2017
 
 this project use React JS and Firebase
 
-##framework
+# framework
 - React JS
 
 #library
